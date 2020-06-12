@@ -32,10 +32,16 @@ body {
 a {
   text-decoration: none;
   text-transform: uppercase;
+  color: var(--main-font-color-dark);
 }
 
 ul {
   list-style: none;
+}
+
+.top {
+  border-bottom: 1px solid #e8e9eb;
+  ;
 }
 
 .container {
@@ -85,5 +91,81 @@ ul {
 .icon {
   height: 22px;
   padding: 0 5px;
+}
 
+/* middle section */
+.product-wrapper {
+  margin-top: 55px;
+  display: flex;
+  flex-direction: row;
+}
+
+.product-wrapper>div {
+  padding: 0 25px;
+}
+
+.picture {
+  flex: 1;
+  text-align: end;
+}
+
+.image-wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.picture img {
+  width: 55%;
+}
+
+.picture svg {
+  width: 55%;
+  position: absolute;
+  right: 0;
+}
+
+.product-details {
+  flex: 1;
+  color: var(--body-font-color);
+  font-size: 2rem;
+  font-weight: 300;
+
+}
+
+.title {
+  font-size: 3.5rem;
+}
+
+.price {
+  padding-bottom: 25px;
+}
+
+.details h5 {
+  padding-top: 35px;
+  padding-bottom: 10px;
+}
+
+.details p {
+  line-height: 3rem;
+  font-size: 1.7rem;
+}
+
+.selection {
+  display: flex;
+}
+
+.selection-wrapper {
+  width: 30%;
+  padding-bottom: 30px;
+}
+
+.selection-wrapper label {
+  display: block;
+}
+
+.selection-wrapper select {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #dadada;
+  border-radius: 5px;
 }
