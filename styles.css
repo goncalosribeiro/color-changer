@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:400,900&display=swap');
+
+/*Global styles*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-font: 'Source Sans Pro', sans-serif;
+  --secondary-font: 'Herr Von Muellerhoff', cursive;
+  --body-font: 'Cabin', sans-serif;
+  --main-font-color-dark: #252525;
+  --secondary-font-color: #c59d5f;
+  --body-font-color: #515151;
+}
+
+html {
+  font-family: var(--body-font);
+  font-size: 10px;
+  color: var(--body-font-color);
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  margin: 0 90px;
+}
+
+.nav-bar {
+  margin-top: 25px;
+  height: 105px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-box {
+  flex: 1;
+}
+
+.logo-box img {
+  width: 100%;
+  max-width: 120px;
+}
+
+.menu {
+  flex: 3;
+  font-size: 1.5rem;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.item {
+  padding: 0 25px;
+}
+
+.icons-list {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.icon {
+  height: 22px;
+  padding: 0 5px;
+
+}
