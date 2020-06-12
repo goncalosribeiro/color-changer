@@ -122,7 +122,34 @@ ul {
   width: 55%;
   position: absolute;
   right: 0;
+  mix-blend-mode: hard-light;
+  opacity: .6;
 }
+
+.cls-1 {
+  fill: transparent;
+}
+
+/* #steelblue:checked~.cls-1 {
+  fill: #002a6a;
+}
+
+#white:checked~.cls-1 {
+  fill: transparent;
+}
+
+#wheat:checked~.cls-1 {
+  fill: #f5deb3;
+}
+
+#salmon:checked~.cls-1 {
+  fill: #ff3333;
+}
+
+#marron:checked~.cls-1 {
+  fill: #330000;
+} */
+
 
 .product-details {
   flex: 1;
